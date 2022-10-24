@@ -1,11 +1,15 @@
 <template>
   <div>
-    <start></start>
+    {{ $route.params.id }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: "[id]"
 }
 </script>
+
+<style scoped>
+
+</style>
